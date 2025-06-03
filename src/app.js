@@ -1,4 +1,5 @@
 // src/app.js
+require('dotenv').config(); // ADICIONE ESTA LINHA NO TOPO!
 const express = require('express');
 const bodyParser = require('body-parser');
 const routes = require('./routes'); // Importa suas rotas
